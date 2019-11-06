@@ -27,6 +27,17 @@ class App extends Component {
      ]
   });
 };
+
+onChangeNameHendler = (event) => {
+  this.setState({
+    persons: [
+      { name: 'Max', age: 28 },
+      { name: 'Manu', age: 29 },
+      { name: 'Stephanie', age: 26 },
+     ]
+  });
+};
+ 
     render () {
      return (
       <div className="App">
