@@ -62,7 +62,7 @@ togglePersonsHandler = () => {
           style={style}
           onClick={this.togglePersonsHandler}>Toggle Person</button>
         {
-          this.state.showPersons ?
+          this.state.showPersons === true ?
             <div>
               <Person
                 name= {this.state.persons[0].name}
