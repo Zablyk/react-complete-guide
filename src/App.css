@@ -10,7 +10,7 @@
   font-weight: bold;
 }
 
-.botton {
+.button {
   background-color: green;
   color: white;
   font: inherit;
@@ -19,7 +19,7 @@
   cursor: pointer;
 }
 
-.botton:hover {
+.button:hover {
   background-color: lightgreen;
   color: black
 }; 
