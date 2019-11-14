@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Radium from 'radium';
 import Person from './Person/Person';
 
 
@@ -100,11 +99,11 @@ togglePersonsHandler = () => {
           onClick={this.togglePersonsHandler}>Toggle Person</button>
         {persons}        
       </div>
-    );
+     );
     //return React.createElement('div', { className: 'App'}, React.createElement('h1', null, 'Does this one work now?'));
     }
   }
 
 
-  export default Radium(App);
+  export default App;
 
