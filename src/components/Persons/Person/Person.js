@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Aux from '../../../hoc/Auxiliary';
+import Aux from '../../../auxiliary/Auxiliary';
 import classes from './Person.css';
 
 
