@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
-import Aux from '../../../auxiliary/Auxiliary';
+import Aux from '../../../hoc/Auxiliary';
 import classes from './Person.css';
 
 
