@@ -1,6 +1,6 @@
 import React from 'react';
 
-const withClass = (WrappedComponent, ClassName) => {
+const withClass = (WrappedComponent, className) => {
     return props => (
         <div className={className}>
             <WrappedComponent />
