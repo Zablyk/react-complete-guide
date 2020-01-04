@@ -8,5 +8,4 @@ const withClass = (WrappedComponent, className) => {
     ); 
 };
 
-
-export default withClass
+export default withClass;

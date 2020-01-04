@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import classes from './App.css';
 import Persons from '../components/Persons/Persons';
 import Cockpit from '../components/Cockpit/Cockpit';
@@ -58,12 +59,12 @@ nameChangedHandler = (event, id) => {
   const persons = [...this.state.persons];
   persons[personIndex] = person;
 
-  this.setState ((prevState, props) => {
+  this.setState(( prevState, props) => {
     return {
-      persons: persons,
-      changeCounter: this.state.changeCounter + 1
-      };
-    });
+      persons: persons, 
+      changeCaunter: prevState.changeCaunter + 1
+    };
+  });
 };
 
 deletePersonHandler = (personIndex) => {
